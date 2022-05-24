@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Corey Day</title>
+    <link>https://www.Corey-Day.com/tag/r/</link>
+      <atom:link href="https://www.Corey-Day.com/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.Corey-Day.com/media/logo_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_300x300_fit_lanczos_3.png</url>
+      <title>R</title>
+      <link>https://www.Corey-Day.com/tag/r/</link>
+    </image>
+    
+    <item>
+      <title>How to use rflexscan for Tango&#39;s Flexibly Shaped Scan Statistic </title>
+      <link>https://www.Corey-Day.com/project/geographic-epidemiology/how-to-use-rflexscan-for-tango-s-flexibly-shaped-scan-statistic/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.Corey-Day.com/project/geographic-epidemiology/how-to-use-rflexscan-for-tango-s-flexibly-shaped-scan-statistic/</guid>
+      <description>
+
+
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

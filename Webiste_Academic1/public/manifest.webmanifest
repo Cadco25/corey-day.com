@@ -1,15 +1,15 @@
 {
-  "name": "",
-  "short_name": "",
+  "name": "Corey Day",
+  "short_name": "Corey Day",
   "lang": "en-us",
   "theme_color": "#bbdefb",
   "background_color": "#bbdefb",
   "icons": [{
-    "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png",
+    "src": "/media/icon_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_192x192_fill_lanczos_center_3.png",
     "sizes": "192x192",
     "type": "image/png"
     }, {
-    "src": "/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png",
+    "src": "/media/icon_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_512x512_fill_lanczos_center_3.png",
     "sizes": "512x512",
     "type": "image/png"
      }],
