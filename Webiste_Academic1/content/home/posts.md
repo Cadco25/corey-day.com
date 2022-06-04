@@ -16,7 +16,8 @@ content:
   # Filter on criteria
   filters:
     folders:
-      - post
+      - research posts
+      - r tutorials
     tag: ''
     category: ''
     publication_type: ''
