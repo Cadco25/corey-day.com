@@ -10,13 +10,13 @@
   <url>
     <loc>https://www.Corey-Day.com/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://www.Corey-Day.com/research-posts/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://www.Corey-Day.com/categories/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.Corey-Day.com/tag/la-crosse-virus-disease/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.Corey-Day.com/tag/mosquitoes/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://www.Corey-Day.com/post/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.Corey-Day.com/category/research/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -24,7 +24,7 @@
   <url>
     <loc>https://www.Corey-Day.com/tag/vbd/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://www.Corey-Day.com/post/what-is-la-crosse-virus-disease/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://www.Corey-Day.com/research-posts/what-is-la-crosse-virus-disease/</loc><lastmod>2022-06-02T14:16:23-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://www.Corey-Day.com/project/geographic-epidemiology/how-to-use-rflexscan-for-tango-s-flexibly-shaped-scan-statistic/</loc><lastmod>2022-05-23T21:02:50-04:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -68,4 +68,6 @@
   <url>
     <loc>https://www.Corey-Day.com/about/</loc><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://www.Corey-Day.com/authors/bio/</loc><changefreq>weekly</changefreq></url></urlset>
+    <loc>https://www.Corey-Day.com/authors/bio/</loc><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://www.Corey-Day.com/r-tutorials/</loc><changefreq>weekly</changefreq></url></urlset>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Corey&#39;s R tutorials | Corey&#39;s VBD Research</title>
+    <link>https://www.Corey-Day.com/r-tutorials/</link>
+      <atom:link href="https://www.Corey-Day.com/r-tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <description>Corey&#39;s R tutorials</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://www.Corey-Day.com/media/logo_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_300x300_fit_lanczos_3.png</url>
+      <title>Corey&#39;s R tutorials</title>
+      <link>https://www.Corey-Day.com/r-tutorials/</link>
+    </image>
+    
+  </channel>
+</rss>
