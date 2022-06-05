@@ -6,9 +6,10 @@
 # Appearance
 
 appearance:
+  theme_light: minimal
   theme_dark: Dark
   font: minimal
-  font_size: M
+  font_size: L
 
 # SEO
 
