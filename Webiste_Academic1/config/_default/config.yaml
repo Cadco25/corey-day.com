@@ -57,6 +57,11 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  markup:
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
 related:
   threshold: 80
   includeNewer: true

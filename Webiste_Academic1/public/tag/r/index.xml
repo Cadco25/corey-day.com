@@ -5,12 +5,49 @@
     <link>https://www.Corey-Day.com/tag/r/</link>
       <atom:link href="https://www.Corey-Day.com/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.Corey-Day.com/media/logo_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_300x300_fit_lanczos_3.png</url>
       <title>R</title>
       <link>https://www.Corey-Day.com/tag/r/</link>
     </image>
+    
+    <item>
+      <title>Using &#39;rflexscan&#39; to detect flexibly-shaped disease clusters with R </title>
+      <link>https://www.Corey-Day.com/r-tutorials/using-rflexscan-to-detect-flexibly-shaped-disease-clusters-with-r/</link>
+      <pubDate>Sun, 05 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.Corey-Day.com/r-tutorials/using-rflexscan-to-detect-flexibly-shaped-disease-clusters-with-r/</guid>
+      <description>
+
+&lt;div id=&#34;TOC&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction&#34;&gt;Introduction&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#assumptions&#34;&gt;Assumptions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#installing-the-necessary-packages&#34;&gt;Installing the necessary packages&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Scan statistics are commonly used in epidemiology for detecting geographic clusters of disease. The most common is Kulldorf’s circular scan statistic (used with SatScan software), which identifies circularly-shaped clusters. A lesser-known but powerful scan statistic is Tango’s flexibly-shaped scan statistic (FSSS), which identifies “flexibly-shaped” clusters. This simply means that instead of only identifying clusters in a circular form, the flexible scan statistic can identify clusters of any shape. This is useful in the myriad scenarios where clusters are not likely to literally form a circle.&lt;/p&gt;
+&lt;p&gt;The most straight-forward way to use Tango’s FSSS is with the freely-available &lt;a href=&#34;https://sites.google.com/site/flexscansoftware/download_e&#34;&gt;FlexScan software&lt;/a&gt;, which works similarly to SatScan. FlexScan works well, but as with most click-based software, using it for large workloads becomes cumbersome, and issues with replication may arise. Queue &lt;code&gt;rflexscan&lt;/code&gt;, the R package that implements Tango’s FSSS. This package can do everything that FlexScan does, with the benefit of reproducible R code that can be converted into functions and loops for large projects. Additionally, by working in R, you have access to the plethora of R packages for spatial analysis, allowing you to complete most (or all) of your workflow in a single environment.&lt;/p&gt;
+&lt;p&gt;The downside to &lt;code&gt;rflexscan&lt;/code&gt; is that it is not well-documented online. &lt;a href=&#34;https://cran.r-project.org/web/packages/rflexscan/rflexscan.pdf&#34;&gt;The user manual&lt;/a&gt; is a good starting point, but is probably not enough to get inexperienced users going. Because the FSSS is not so commonly used, &lt;code&gt;rflexscan&lt;/code&gt; also seems to lack user-made tutorials that are so helpful for other R packages. With that issue in mind, I am creating this tutorial that will help people use &lt;code&gt;rflexscan&lt;/code&gt; to detect flexibly-shaped disease clusters. I will walk through an example from beginning-to-end, relying entirely on R and its helpful packages to create a reproducible workflow. I hope that this will help the next person who wants to use this package!&lt;/p&gt;
+&lt;div id=&#34;assumptions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Assumptions&lt;/h2&gt;
+&lt;p&gt;I am going to assume basic R knowledge, including knowledge of the &lt;code&gt;tidyverse&lt;/code&gt; family of packages for data manipulation. If you struggle to understand any data manipulation in this article, I highly recommend visting &lt;a href=&#34;https://ourcodingclub.github.io/tutorials.html&#34;&gt;Our Coding Club&lt;/a&gt; and working through their data manipulation tutorials. The skills gained from those tutorials can drastically improve your efficiency when working with data.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;installing-the-necessary-packages&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Installing the necessary packages&lt;/h2&gt;
+&lt;p&gt;I am going to rely on a few different packages for this tutorial: &lt;code&gt;rflexscan&lt;/code&gt;, &lt;code&gt;spdep&lt;/code&gt;, &lt;code&gt;sf&lt;/code&gt;, and &lt;code&gt;tidyverse&lt;/code&gt;. Each of these packages are excellent for spatial analysis, so installing them should be worthwhile for you. If you have not installed them, use &lt;code&gt;install.packages(&#39;insert_package_name_here&#39;)&lt;/code&gt;. Once they are installed, use the code below to load them.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(rflexscan)
+library(spdep)
+library(sf)
+library(tidyverse)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>How to use rflexscan for Tango&#39;s Flexibly Shaped Scan Statistic </title>

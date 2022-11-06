@@ -1,5 +1,5 @@
 ---
-bio: PhD student studying vector-borne diseases 
+bio: '' 
 
 email: ""
 highlight_name: true
@@ -7,7 +7,7 @@ highlight_name: true
 organizations:
 - name: University of Tennessee - Knoxville
   url: https://epp.tennessee.edu/
-role: PhD Student
+role: 'PhD Student at UT Knoxville'
 social:
 
 - icon: twitter

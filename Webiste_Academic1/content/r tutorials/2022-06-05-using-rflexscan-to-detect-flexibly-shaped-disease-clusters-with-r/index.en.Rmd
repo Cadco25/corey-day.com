@@ -1,0 +1,52 @@
+---
+title: 'Using ''rflexscan'' to detect flexibly-shaped disease clusters with R '
+author: Corey Day
+date: '2022-06-05'
+slug: using-rflexscan-to-detect-flexibly-shaped-disease-clusters-with-r
+categories:
+  - R
+tags:
+  - R
+  - Epidemiology
+  - FlexScan
+  - rflexscan
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2022-06-05T13:26:04-04:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+output:
+  blogdown::html_page:
+    toc: true
+---
+
+# Introduction 
+
+Scan statistics are commonly used in epidemiology for detecting geographic clusters of disease. The most common is Kulldorf's circular scan statistic (used with SatScan software), which identifies circularly-shaped clusters. A lesser-known but powerful scan statistic is Tango's flexibly-shaped scan statistic (FSSS), which identifies "flexibly-shaped" clusters. This simply means that instead of only identifying clusters in a circular form, the flexible scan statistic can identify clusters of any shape. This is useful in the myriad scenarios where clusters are not likely to literally form a circle.
+
+The most straight-forward way to use Tango's FSSS is with the freely-available [FlexScan software](https://sites.google.com/site/flexscansoftware/download_e), which works similarly to SatScan. FlexScan works well, but as with most click-based software, using it for large workloads becomes cumbersome, and issues with replication may arise. Queue `rflexscan`, the R package that implements Tango's FSSS. This package can do everything that FlexScan does, with the benefit of reproducible R code that can be converted into functions and loops for large projects. Additionally, by working in R, you have access to the plethora of R packages for spatial analysis, allowing you to complete most (or all) of your workflow in a single environment. 
+
+The downside to `rflexscan` is that it is not well-documented online. [The user manual](https://cran.r-project.org/web/packages/rflexscan/rflexscan.pdf) is a good starting point, but is probably not enough to get inexperienced users going. Because the FSSS is not so commonly used, `rflexscan` also seems to lack user-made tutorials that are so helpful for other R packages. With that issue in mind, I am creating this tutorial that will help people use `rflexscan` to detect flexibly-shaped disease clusters. I will walk through an example from beginning-to-end, relying entirely on R and its helpful packages to create a reproducible workflow. I hope that this will help the next person who wants to use this package! 
+
+## Assumptions
+
+I am going to assume basic R knowledge, including knowledge of the `tidyverse` family of packages for data manipulation. If you struggle to understand any data manipulation in this article, I highly recommend visting [Our Coding Club](https://ourcodingclub.github.io/tutorials.html) and working through their data manipulation tutorials. The skills gained from those tutorials can drastically improve your efficiency when working with data. 
+
+
+## Installing the necessary packages
+
+I am going to rely on a few different packages for this tutorial: `rflexscan`, `spdep`, `sf`, and `tidyverse`. Each of these packages are excellent for spatial analysis, so installing them should be worthwhile for you. If you have not installed them, use `install.packages('insert_package_name_here')`. Once they are installed, use the code below to load them.
+
+```{r load packages,  warning = FALSE, message = FALSE}
+library(rflexscan)
+library(spdep)
+library(sf)
+library(tidyverse)
+```
+
+
