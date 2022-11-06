@@ -5,7 +5,7 @@
     <link>https://www.Corey-Day.com/project/</link>
       <atom:link href="https://www.Corey-Day.com/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 06 Nov 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.Corey-Day.com/media/logo_hu7d4e0e7e1d4a3a6826d7b8a27c541b87_61713_300x300_fit_lanczos_3.png</url>
       <title>Projects</title>
@@ -13,27 +13,41 @@
     </image>
     
     <item>
-      <title>How to use rflexscan for Tango&#39;s Flexibly Shaped Scan Statistic </title>
-      <link>https://www.Corey-Day.com/project/geographic-epidemiology/how-to-use-rflexscan-for-tango-s-flexibly-shaped-scan-statistic/</link>
-      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
-      <guid>https://www.Corey-Day.com/project/geographic-epidemiology/how-to-use-rflexscan-for-tango-s-flexibly-shaped-scan-statistic/</guid>
-      <description>
+      <title>Spatial-Temporal Clusters of La Crosse Virus Disease </title>
+      <link>https://www.Corey-Day.com/project/spatial-temporal-clusters-of-la-crosse-virus-disease/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://www.Corey-Day.com/project/spatial-temporal-clusters-of-la-crosse-virus-disease/</guid>
+      <description>&lt;p&gt;
 
 
 
-</description>
-    </item>
-    
-    <item>
-      <title>Example Project</title>
-      <link>https://www.Corey-Day.com/project/example/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://www.Corey-Day.com/project/example/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Example of county-level La Crosse virus disease clusters. Counties in dark blue were in high-risk clusters from 2003 to 2021.  &#34; srcset=&#34;
+               /project/spatial-temporal-clusters-of-la-crosse-virus-disease/images/TN_NC_Clusters_hu3ec7a8dce5c6f6f6524fe0e6cf894130_246871_a2a87becf0f629832000401e0c36272d.webp 400w,
+               /project/spatial-temporal-clusters-of-la-crosse-virus-disease/images/TN_NC_Clusters_hu3ec7a8dce5c6f6f6524fe0e6cf894130_246871_aaa1e72358dea554a4e72d0c4af3ed1e.webp 760w,
+               /project/spatial-temporal-clusters-of-la-crosse-virus-disease/images/TN_NC_Clusters_hu3ec7a8dce5c6f6f6524fe0e6cf894130_246871_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://www.Corey-Day.com/project/spatial-temporal-clusters-of-la-crosse-virus-disease/images/TN_NC_Clusters_hu3ec7a8dce5c6f6f6524fe0e6cf894130_246871_a2a87becf0f629832000401e0c36272d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;535&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Part of my PhD research focuses on the geographic epidemiology of &lt;a href=&#34;https://www.corey-day.com/research-posts/what-is-la-crosse-virus-disease/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;La Crosse virus disease&lt;/a&gt;, which is a mosquito borne disease that primarily affects children. Prior to my research, there was some evidence that La Crosse virus risk was spatially persistent, meaning that if there is high risk at one location right now, that location will continue to have high risk in the future. If that pattern of spatial persistence is true, then it will be important for future efforts to prevent La Crosse virus infections. Hopefully, we can use the results of this research to find the places where people are most likely to become infected so that we can prevent more children from getting sick.&lt;/p&gt;
+&lt;p&gt;There is a need for formal epidemiological analyses using spatial tools to investigate the spatial patterns of La Crosse virus disease. My hypothesis is that the geographic distribution of La Crosse virus disease has remained consistent in the last two decades. To test that hypothesis, I am conducting high-risk disease cluster analyses on multiple geographic scales. First, I am using publicly available data from the United States&amp;rsquo; arboviral disease database, ArboNET, to investigate disease clustering at the county level in the eastern United States. A county-level disease cluster is a group of neighboring counties that have significantly higher La Crosse virus disease risk than the eastern United States overall. Prior to my work, only one study has investigated La Crosse virus disease clustering at this scale, using data from 2003 to 2007. I repeated the analysis for that time period and additionally investigating clustering in subsequent time periods to compare the distribution of high-risk clusters from 2003 to 2021. This research is currently under peer review, and I will update this page with a link to the open access article once it is published. For now, here is a hint: disease risk has remained persistent in a few clusters of counties for nearly 20 years.&lt;/p&gt;
+&lt;p&gt;I will also conduct a fine-scale investigation of risk clustering in partnership with the North Carolina Department of Health and Human Services. North Carolina has some of the highest rates of La Crosse virus disease in the country, and the vast majority of that disease is reported from a few counties in western NC. Whilst ensuring that the privacy of individuals is protected, I will conduct a household-level cluster investigation using the home addresses of all reported La Crosse virus disease in North Carolina from 1997 to 2020. My hypothesis is that the addresses will not be randomly distributed throughout the high-risk counties, but instead that the houses are often clustered together. If that is true, then this work will identify specific areas where people consistently become infected with La Crosse virus, and public health officials can target their prevention efforts directly to those places. This might include virus surveillance, mosquito control, and awareness campaigns to help people protect their children from La Crosse virus disease.&lt;/p&gt;
 </description>
     </item>
     
